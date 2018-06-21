@@ -12,3 +12,5 @@ NOTE：
 可参考twostream.py文件编写two_stream.py代码，且C3D.py文件提供了课程中讲解的三维卷积网络结构。
 
 caffe版C3D参考：https://github.com/facebook/C3D
+
+课上出现的问题在于我们服务器cudnn5.1对于cuda8.0的版本不对应，修改之后就可跑起。
