@@ -52,7 +52,7 @@ for video in os.listdir(penn_path):     #penn_path is the full path you store yo
 
     for i in range(skip_length):                        
 
-        frame_select = tuple(range(1, skip_length*16, skip_length)) #get the frame index to read
+        frame_select = tuple(range(i, skip_length*16, skip_length)) #get the frame index to read
         video_cube   = np.zeros((112, 112, 16, 3), dtype='uint8')   #to store video clips
         frame_count  = 0
         for frame in frame_select:                                  #frames
