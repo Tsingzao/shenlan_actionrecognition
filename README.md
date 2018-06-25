@@ -1,6 +1,6 @@
 # shenlan_actionrecognition
 
-1、从https://pan.baidu.com/s/1c3J0rhI#list/path=%2F 下载预处理好的视频数据，或者原始视频帧数据；
+1、从https://pan.baidu.com/s/1c3J0rhI#list/path=%2F 下载预处理好的视频数据，或者原始视频帧数据；更新：2018/6/25
 
 2、如果下载的是处理后的视频h5数据，则直接进行下一步；否则，按照提供的VideoPreProcessingAndDataAugmentation.py文件对视频进行预处理以及转存成h5文件；
 
