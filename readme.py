@@ -56,7 +56,7 @@ for video in os.listdir(penn_path):     #penn_path is the full path you store yo
         video_cube   = np.zeros((112, 112, 16, 3), dtype='uint8')   #to store video clips
         frame_count  = 0
         for frame in frame_select:                                  #frames
-            temp = 'frame-'+str(frame).zfille(4)+'.jpg'             #frame name
+            temp = 'frame-'+str(frame).zfill(4)+'.jpg'             #frame name
             frame_path = video_path + '/'+ video + '/' + temp       #frame path
             frame_image = image.load_img(frame_path, target_size=(112, 112))    #read frame
             frame_array = image.img_to_array(frame_image)           #frame to numpy array
